@@ -9,7 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      gray: colors.slate,
+      colors: {
+        gray: colors.slate,
+      },
     },
   },
   plugins: [],
